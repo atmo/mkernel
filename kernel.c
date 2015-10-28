@@ -12,7 +12,7 @@ void kmain(void)
 	unsigned int j = 0;
 	unsigned int screensize;
 
-	/* this loops clears the screen
+	/* this loop clears the screen
 	* there are 25 lines each of 80 columns; each element takes 2 bytes */
 	screensize = 80 * 25 * 2;
 	while (j < screensize) {
